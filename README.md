@@ -1,9 +1,8 @@
 # Switch Homebrew Template
 
-<div style="text-align: center;">
-    <img src="icon.jpg" alt="App Icon" style="display: block; margin: 0 auto; width: 40%"  />
-    <p>Hello World</p>
-</div>
+<p align="center">
+  <img width="40%" height="auto" src="icon.jpg">
+</p>
 
 Hello World template for switch homebrew development.
 
@@ -26,6 +25,35 @@ make
 
 ./build.sh #builds the app using the docker image switchdev
 ```
+
+## Test Homebrew via [hbmenu](https://github.com/switchbrew/nx-hbmenu)
+
+1. Start [hbmenu](https://github.com/switchbrew/nx-hbmenu) on your CFW Switch
+
+<p align="center">
+  <img width="70%" height="auto" src="./assets/nx-hbmenu-1.jpg">
+</p>
+
+2. Press Y to use the NetLoader
+
+<p align="center">
+  <img width="70%" height="auto" src="./assets/nx-hbmenu-2.jpg">
+</p>
+
+3. Run [nxlink](https://wiidatabase.de/switch-downloads/pc-tools/nxlink/)
+    ```sh
+    nxlink -s -a 192.168.XXX.XXX out\<homebrew_name>.nro
+    ```
+
+4. 
+
+<p align="center">
+  <img width="70%" height="auto" src="./assets/nx-hbmenu-3.jpg">
+</p>
+
+<p align="center">
+  <img width="70%" height="auto" src="./assets/nx-hbmenu-4.jpg">
+</p>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
