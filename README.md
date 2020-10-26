@@ -1,4 +1,10 @@
 # Switch Homebrew Template
+
+<div style="text-align: center;">
+    <img src="icon.jpg" alt="App Icon" style="display: block; margin: 0 auto; width: 40%"  />
+    <p>Hello World</p>
+</div>
+
 Hello World template for switch homebrew development.
 
 ## Requirements
@@ -12,6 +18,13 @@ Switch with CFW([SX OS](https://sx.xecuter.com/), [Atmosphere](https://github.co
 ## Build
 ```sh
 make
+```
+
+## Build using docker
+```sh
+./scripts/build-docker-image.sh #builds the docker image switchdev
+
+./build.sh #builds the app using the docker image switchdev
 ```
 
 ## Contributing
