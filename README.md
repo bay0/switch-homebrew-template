@@ -21,9 +21,9 @@ make
 
 ## Build using docker
 ```sh
-./scripts/build-docker-image.sh #builds the docker image switchdev
+./scripts/build-docker-image.sh #builds the docker switchdev image local
 
-./build.sh #builds the app using the docker image switchdev
+./build.sh #builds the app using the docker image ghcr.io/bay0/switch-homebrew-template:latest
 ```
 
 ## Test Homebrew via [hbmenu](https://github.com/switchbrew/nx-hbmenu)
