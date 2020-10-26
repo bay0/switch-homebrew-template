@@ -1,11 +1,9 @@
-name: ci
+name: switchdev
 
 on:
-  schedule:
-    - cron: '0 10 * * *' # everyday at 10am
   push:
     tags:
-      - 'v*.*.*'
+      - 'switch-dev-v*.*.*'
   pull_request:
 
 jobs:
